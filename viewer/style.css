@@ -5,20 +5,35 @@ body {
   padding: 10vw;
 }
 
-form{
-  margin-top: 40px;
+h1 {
+	margin-top: -20px;
+}
+
+form {
+  margin-top: 70px;
+}
+
+.task-form {
+	margin: 10px;
 }
 
 .button {
-  margin-top: 25px;
-  background-color: ;
-  color: white;
+  	margin-left: 12px;
+  	background-color: #609fd4;
+  	color: white;
+	border-radius: 8px;
+	padding: 3px 10px;
+}
+
+.task-form, .button {
 }
 
 .tasks {
-  margin-top: 50px;
+  width: 300px;
+  text-align: left;
+	margin: 50px auto 0 auto;
+	/* border: 1px solid pink; */
 }
-
 
 #thisAwesomeButton {
 	padding: 20px;
